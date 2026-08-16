@@ -1,163 +1,462 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-
 <meta charset="UTF-8">
+
+<!-- Google Search Console Verification -->
+<meta name="google-site-verification" content="google5724b004f9937270" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#2563eb">
 
-<!-- Google Search Console Verification (Correct Code) -->
-<meta name="google-site-verification" content="google5724b004f9937270">
+<!-- SEO -->
+<title>Free Sarkari Photo Resizer & Signature Resizer Online | Sarkari Image Studio</title>
 
-<title>Free Sarkari Exam Photo & Signature Resizer Online | Sarkari Image Studio</title>
+<meta name="description" content="Free Sarkari Photo Resizer and Signature Resizer Online. Crop, resize and compress photo and signature for SSC, Railway, UPSC, IBPS, CGPSC, CG Vyapam and other government exam forms.">
 
-<meta name="description" content="Free online Sarkari Exam Photo & Signature Resizer. Photo और signature को crop, resize और compress करें। SSC, Railway, IBPS, UPSC, CGPSC और अन्य exam forms के लिए उपयोग करें।">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="author" content="Sarkari Image Studio">
-<meta name="keywords" content="sarkari photo resizer, photo resizer online, signature resizer, SSC photo resizer, railway photo resizer, IBPS photo resizer, UPSC photo resizer, CGPSC photo resizer, image resize online">
 
-<!-- Canonical -->
 <link rel="canonical" href="https://sarkari-image-resizer.vercel.app/">
+
+<!-- Favicon / Logo -->
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Free Sarkari Exam Photo & Signature Resizer Online">
-<meta property="og:description" content="Photo और Signature को online crop, resize और compress करें। SSC, Railway, IBPS, UPSC, CGPSC और अन्य exam forms के लिए उपयोगी।">
+<meta property="og:title" content="Sarkari Image Studio - Free Photo & Signature Resizer">
+<meta property="og:description" content="Free online photo and signature resizer for government exam forms. Crop, resize and compress images easily.">
 <meta property="og:url" content="https://sarkari-image-resizer.vercel.app/">
+<meta property="og:image" content="https://sarkari-image-resizer.vercel.app/logo.png">
 <meta property="og:site_name" content="Sarkari Image Studio">
 
-<!-- Twitter -->
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Free Sarkari Exam Photo & Signature Resizer">
-<meta name="twitter:description" content="Government exam photo और signature resize करने का free online tool।">
+<meta name="twitter:title" content="Sarkari Image Studio - Photo & Signature Resizer">
+<meta name="twitter:description" content="Free online Sarkari exam photo and signature resizer.">
+<meta name="twitter:image" content="https://sarkari-image-resizer.vercel.app/logo.png">
 
-<!-- Structured Data -->
+<!-- WebSite / WebApplication Schema -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"WebApplication",
-  "name":"Sarkari Image Studio",
-  "url":"https://sarkari-image-resizer.vercel.app/",
-  "description":"Free online photo and signature resizer for government exam applications.",
-  "applicationCategory":"MultimediaApplication",
-  "operatingSystem":"All",
-  "browserRequirements":"Requires JavaScript",
-  "offers":{
-    "@type":"Offer",
-    "price":"0",
-    "priceCurrency":"INR"
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Sarkari Image Studio",
+  "url": "https://sarkari-image-resizer.vercel.app/",
+  "description": "Free online photo and signature resizer for government examination forms.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Android, iOS, Windows, macOS, Linux",
+  "browserRequirements": "Requires JavaScript",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
   }
 }
 </script>
 
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"FAQPage",
-  "mainEntity":[
-    {
-      "@type":"Question",
-      "name":"क्या यह photo और signature को resize कर सकता है?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"हाँ। यह tool photo और signature को crop, resize और compress करने में मदद करता है।"
-      }
-    },
-    {
-      "@type":"Question",
-      "name":"क्या यह mobile में काम करता है?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"हाँ। यह responsive design के साथ mobile, tablet और computer पर काम करता है।"
-      }
-    },
-    {
-      "@type":"Question",
-      "name":"क्या image server पर upload होती है?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"इस tool में image processing browser के अंदर की जाती है और कोई login या image-upload backend शामिल नहीं है।"
-      }
-    },
-    {
-      "@type":"Question",
-      "name":"क्या यह exact KB बना सकता है?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"Tool चुनी गई KB range में file बनाने की कोशिश करता है। कुछ images में dimensions और image content के कारण exact range प्राप्त नहीं हो सकती।"
-      }
-    }
-  ]
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Sarkari Image Studio",
+  "url": "https://sarkari-image-resizer.vercel.app/"
 }
 </script>
 
 <style>
-*{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{margin:0;font-family:Arial,"Segoe UI",sans-serif;background:#f4f7fb;color:#172033;}
-.container{max-width:950px;margin:auto;padding:15px;}
-.header{text-align:center;padding:20px 10px;}
-.logo{display:inline-block;font-weight:bold;color:#2563eb;font-size:14px;}
-h1{margin:8px 0;font-size:clamp(24px,5vw,38px);line-height:1.25;}
-h2{font-size:22px;}
-.subtitle{color:#64748b;line-height:1.6;max-width:720px;margin:auto;}
-.card{background:white;border:1px solid #dce3ec;border-radius:18px;padding:18px;margin:15px 0;box-shadow:0 8px 25px rgba(15,23,42,.06);}
-.title{font-size:18px;font-weight:bold;margin-bottom:13px;}
-.mode{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-.mode button{padding:15px;border:2px solid #dce3ec;background:white;border-radius:12px;font-weight:bold;cursor:pointer;}
-.mode button.active{border-color:#2563eb;background:#eff6ff;color:#2563eb;}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-label{display:block;font-weight:bold;font-size:13px;margin-bottom:6px;}
-select,input[type="number"]{width:100%;padding:11px;border:1px solid #cbd5e1;border-radius:9px;background:white;font-size:14px;}
-select:focus,input:focus{outline:none;border-color:#2563eb;box-shadow:0 0 0 3px rgba(37,99,235,.1);}
-.note{color:#64748b;font-size:12px;line-height:1.6;}
-.upload{border:2px dashed #60a5fa;background:#eff6ff;border-radius:15px;text-align:center;padding:30px 15px;}
-.upload-icon{font-size:42px;}
-.upload strong{display:block;margin:8px;}
-.file-label{display:inline-block;background:#2563eb;color:white;padding:12px 20px;border-radius:10px;cursor:pointer;font-weight:bold;}
-#file{display:none;}
-.editor-box{display:none;}
-.editor{height:550px;min-height:350px;background:#111827;border-radius:15px;position:relative;overflow:hidden;touch-action:none;}
-#canvas{width:100%;height:100%;position:absolute;inset:0;}
-.crop-frame{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:2px solid white;box-shadow:0 0 0 9999px rgba(0,0,0,.55);pointer-events:none;}
-.crop-photo{width:min(260px,65%);aspect-ratio:3/4;}
-.crop-signature{width:min(80%,400px);aspect-ratio:3/1;}
-.controls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;}
-.control{background:#f8fafc;border:1px solid #dce3ec;padding:12px;border-radius:10px;}
-input[type="range"]{width:100%;accent-color:#2563eb;}
-.buttons{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;}
-.btn{border:0;padding:12px 18px;border-radius:10px;font-weight:bold;cursor:pointer;}
-.btn:disabled{opacity:.6;cursor:not-allowed;}
-.primary{background:#2563eb;color:white;}
-.green{background:#16a34a;color:white;}
-.gray{background:#e5e7eb;color:#111827;}
-.result{display:none;}
-.preview-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-.preview{border:1px solid #dce3ec;border-radius:12px;padding:10px;text-align:center;}
-.preview img{max-width:100%;max-height:330px;border-radius:8px;}
-.status{margin-top:12px;padding:13px;border-radius:10px;font-weight:bold;}
-.success{background:#dcfce7;color:#166534;}
-.warning{background:#fef3c7;color:#92400e;}
-.exam-table-wrap{overflow-x:auto;}
-.exam-table{width:100%;min-width:600px;border-collapse:collapse;font-size:13px;}
-.exam-table th{background:#f1f5f9;padding:10px;text-align:left;border-bottom:1px solid #cbd5e1;}
-.exam-table td{padding:10px;border-bottom:1px solid #e2e8f0;}
-.exam-table tr:hover{background:#f8fafc;}
-.faq details{border-top:1px solid #e2e8f0;padding:12px 0;}
-.faq summary{font-weight:bold;cursor:pointer;}
-.seo-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;}
-.seo-tag{background:#eff6ff;color:#1d4ed8;padding:7px 10px;border-radius:8px;font-size:12px;}
-.footer{text-align:center;color:#64748b;font-size:12px;padding:20px;line-height:1.6;}
-.hidden{display:none;}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,Segoe UI,sans-serif;
+    background:#f4f7fb;
+    color:#172033;
+}
+
+.container{
+    max-width:950px;
+    margin:auto;
+    padding:15px;
+}
+
+.header{
+    text-align:center;
+    padding:20px 10px;
+}
+
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 10px;
+}
+
+.logo img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    display:block;
+}
+
+h1{
+    margin:8px 0;
+    font-size:clamp(24px,5vw,38px);
+    line-height:1.2;
+}
+
+h2{
+    line-height:1.3;
+}
+
+.subtitle{
+    color:#64748b;
+    line-height:1.6;
+    max-width:720px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border:1px solid #dce3ec;
+    border-radius:18px;
+    padding:18px;
+    margin:15px 0;
+    box-shadow:0 8px 25px rgba(15,23,42,.06);
+}
+
+.title{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:13px;
+}
+
+.mode{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+.mode button{
+    padding:15px;
+    border:2px solid #dce3ec;
+    background:white;
+    border-radius:12px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.mode button.active{
+    border-color:#2563eb;
+    background:#eff6ff;
+    color:#2563eb;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+
+label{
+    display:block;
+    font-weight:bold;
+    font-size:13px;
+    margin-bottom:6px;
+}
+
+select,
+input[type="number"]{
+    width:100%;
+    padding:11px;
+    border:1px solid #cbd5e1;
+    border-radius:9px;
+    background:white;
+}
+
+select:focus,
+input:focus{
+    outline:none;
+    border-color:#2563eb;
+    box-shadow:0 0 0 3px rgba(37,99,235,.1);
+}
+
+.note{
+    color:#64748b;
+    font-size:12px;
+    line-height:1.7;
+}
+
+.upload{
+    border:2px dashed #60a5fa;
+    background:#eff6ff;
+    border-radius:15px;
+    text-align:center;
+    padding:30px 15px;
+}
+
+.upload-icon{
+    font-size:42px;
+}
+
+.upload strong{
+    display:block;
+    margin:8px;
+}
+
+.file-label{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#file{
+    display:none;
+}
+
+.editor-box{
+    display:none;
+}
+
+.editor{
+    height:550px;
+    min-height:350px;
+    background:#111827;
+    border-radius:15px;
+    position:relative;
+    overflow:hidden;
+    touch-action:none;
+}
+
+#canvas{
+    width:100%;
+    height:100%;
+    position:absolute;
+    inset:0;
+}
+
+.crop-frame{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border:2px solid white;
+    box-shadow:0 0 0 9999px rgba(0,0,0,.55);
+    pointer-events:none;
+}
+
+.crop-photo{
+    width:min(260px,65%);
+    aspect-ratio:3/4;
+}
+
+.crop-signature{
+    width:min(80%,400px);
+    aspect-ratio:3/1;
+}
+
+.controls{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-top:12px;
+}
+
+.control{
+    background:#f8fafc;
+    border:1px solid #dce3ec;
+    padding:12px;
+    border-radius:10px;
+}
+
+input[type="range"]{
+    width:100%;
+    accent-color:#2563eb;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+    margin-top:12px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    border:0;
+    padding:12px 18px;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.btn:disabled{
+    opacity:.65;
+    cursor:not-allowed;
+}
+
+.primary{
+    background:#2563eb;
+    color:white;
+}
+
+.green{
+    background:#16a34a;
+    color:white;
+}
+
+.gray{
+    background:#e5e7eb;
+    color:#111827;
+}
+
+.result{
+    display:none;
+}
+
+.preview-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+
+.preview{
+    border:1px solid #dce3ec;
+    border-radius:12px;
+    padding:10px;
+    text-align:center;
+}
+
+.preview img{
+    max-width:100%;
+    max-height:330px;
+    border-radius:8px;
+}
+
+.status{
+    margin-top:12px;
+    padding:13px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.success{
+    background:#dcfce7;
+    color:#166534;
+}
+
+.warning{
+    background:#fef3c7;
+    color:#92400e;
+}
+
+.exam-table-wrap{
+    overflow-x:auto;
+}
+
+.exam-table{
+    width:100%;
+    min-width:600px;
+    border-collapse:collapse;
+    font-size:13px;
+}
+
+.exam-table th{
+    background:#f1f5f9;
+    padding:10px;
+    text-align:left;
+    border-bottom:1px solid #cbd5e1;
+}
+
+.exam-table td{
+    padding:10px;
+    border-bottom:1px solid #e2e8f0;
+}
+
+.exam-table tr:hover{
+    background:#f8fafc;
+}
+
+.faq details{
+    border-top:1px solid #e2e8f0;
+    padding:12px 0;
+}
+
+.faq summary{
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.footer{
+    text-align:center;
+    color:#64748b;
+    font-size:12px;
+    padding:20px;
+    line-height:1.6;
+}
+
+.hidden{
+    display:none;
+}
+
+.seo-content{
+    line-height:1.8;
+}
+
+.seo-content h2{
+    font-size:21px;
+    color:#172033;
+}
+
+.seo-content h3{
+    font-size:17px;
+}
 
 @media(max-width:650px){
-  .container{padding:8px;}
-  .card{padding:14px;border-radius:14px;}
-  .grid,.controls,.preview-grid{grid-template-columns:1fr;}
-  .editor{height:470px;}
-  .crop-photo{width:58%;}
-  .buttons .btn{flex:1;}
+
+    .container{
+        padding:8px;
+    }
+
+    .card{
+        padding:14px;
+        border-radius:14px;
+    }
+
+    .logo img{
+        width:75px;
+        height:75px;
+    }
+
+    .grid,
+    .controls,
+    .preview-grid{
+        grid-template-columns:1fr;
+    }
+
+    .editor{
+        height:470px;
+    }
+
+    .crop-photo{
+        width:58%;
+    }
+
+    .buttons .btn{
+        flex:1;
+    }
+
+    h1{
+        font-size:26px;
+    }
 }
+
 </style>
 </head>
 
@@ -166,222 +465,632 @@ input[type="range"]{width:100%;accent-color:#2563eb;}
 <div class="container">
 
 <header class="header">
-<div class="logo">🛠️ SARKARI IMAGE STUDIO</div>
-<h1>Free Sarkari Exam Photo & Signature Resizer Online</h1>
+
+<div class="logo">
+<img src="/logo.png"
+     alt="Sarkari Image Studio Logo"
+     width="90"
+     height="90">
+</div>
+
+<h1>
+Free Sarkari Exam Photo & Signature Resizer
+</h1>
+
 <p class="subtitle">
-Online Photo & Signature Resizer for SSC, Railway, UPSC, IBPS, Banking, CGPSC, CG Vyapam और अन्य exam forms.<br>
-Crop • Resize • Compress • Check KB
+Sarkari Photo Resizer और Signature Resizer Online —
+SSC, Railway, UPSC, IBPS, CGPSC, CG Vyapam और
+अन्य government exam forms के लिए photo और
+signature को crop, resize और compress करें।
 </p>
+
 </header>
 
-<!-- MODE -->
 <div class="card">
-<div class="title">1. Photo या Signature चुनें</div>
+
+<div class="title">
+1. Photo या Signature चुनें
+</div>
+
 <div class="mode">
-<button id="photoMode" class="active">📷 Photo</button>
-<button id="signatureMode">✍️ Signature</button>
-</div>
+
+<button id="photoMode" class="active">
+📷 Photo
+</button>
+
+<button id="signatureMode">
+✍️ Signature
+</button>
+
 </div>
 
-<!-- REQUIREMENT -->
+</div>
+
 <div class="card">
-<div class="title">2. File Size और Dimensions</div>
+
+<div class="title">
+2. File Size और Dimensions
+</div>
+
 <div class="grid">
+
 <div>
-<label>Target File Size</label>
+
+<label>
+Target File Size
+</label>
+
 <select id="preset">
-<option value="20,50">20–50 KB</option>
-<option value="10,20">10–20 KB</option>
-<option value="50,100">50–100 KB</option>
-<option value="100,200">100–200 KB</option>
-<option value="200,300">200–300 KB</option>
-<option value="custom">Custom Size</option>
+
+<option value="20,50">
+20–50 KB
+</option>
+
+<option value="10,20">
+10–20 KB
+</option>
+
+<option value="50,100">
+50–100 KB
+</option>
+
+<option value="100,200">
+100–200 KB
+</option>
+
+<option value="200,300">
+200–300 KB
+</option>
+
+<option value="custom">
+Custom Size
+</option>
+
 </select>
+
 </div>
 
 <div>
-<label>Output Format</label>
+
+<label>
+Output Format
+</label>
+
 <select id="format">
-<option value="jpeg">JPG / JPEG</option>
-<option value="webp">WebP</option>
+
+<option value="jpeg">
+JPG / JPEG
+</option>
+
+<option value="webp">
+WebP
+</option>
+
 </select>
-</div>
+
 </div>
 
-<div id="customBox" class="grid hidden" style="margin-top:12px">
-<div>
-<label>Minimum KB</label>
-<input id="minKB" type="number" value="20" min="1">
-</div>
-<div>
-<label>Maximum KB</label>
-<input id="maxKB" type="number" value="50" min="2">
-</div>
 </div>
 
-<div class="grid" style="margin-top:12px">
+<div
+id="customBox"
+class="grid hidden"
+style="margin-top:12px">
+
 <div>
-<label>Width (px)</label>
-<input id="width" type="number" value="350" min="50">
+
+<label>
+Minimum KB
+</label>
+
+<input
+id="minKB"
+type="number"
+value="20"
+min="1">
+
 </div>
+
 <div>
-<label>Height (px)</label>
-<input id="height" type="number" value="450" min="50">
+
+<label>
+Maximum KB
+</label>
+
+<input
+id="maxKB"
+type="number"
+value="50"
+min="2">
+
 </div>
+
+</div>
+
+<div
+class="grid"
+style="margin-top:12px">
+
+<div>
+
+<label>
+Width (px)
+</label>
+
+<input
+id="width"
+type="number"
+value="350"
+min="50">
+
+</div>
+
+<div>
+
+<label>
+Height (px)
+</label>
+
+<input
+id="height"
+type="number"
+value="450"
+min="50">
+
+</div>
+
 </div>
 
 <p class="note">
-⚠️ अलग-अलग government recruitment में photo/signature की KB, dimensions, format और background requirements अलग हो सकती हैं। Final upload से पहले संबंधित official notification जरूर देखें।
+⚠️ Important: अलग-अलग government recruitment में
+photo/signature की KB, dimensions, format और
+background requirements अलग हो सकती हैं।
+Final upload से पहले संबंधित official notification
+जरूर देखें।
 </p>
+
 </div>
 
-<!-- UPLOAD -->
 <div class="card">
-<div class="title">3. Image Upload करें</div>
-<div class="upload">
-<div class="upload-icon">📁</div>
-<strong>अपनी Photo या Signature चुनें</strong>
-<span class="note">JPG, JPEG, PNG, WebP • Maximum 10 MB</span>
-<br>
-<label class="file-label" for="file">Choose Image</label>
-<input id="file" type="file" accept="image/jpeg,image/png,image/webp">
-<p class="note">🔒 इस tool में image processing browser के अंदर की जाती है। किसी login की आवश्यकता नहीं है।</p>
-</div>
+
+<div class="title">
+3. Image Upload करें
 </div>
 
-<!-- EDITOR -->
-<div class="card editor-box" id="editorBox">
-<div class="title">4. Crop & Adjust</div>
-<div class="editor" id="editor">
+<div class="upload">
+
+<div class="upload-icon">
+📁
+</div>
+
+<strong>
+अपनी Photo या Signature चुनें
+</strong>
+
+<span class="note">
+JPG, JPEG, PNG, WebP • Maximum 10 MB
+</span>
+
+<br>
+
+<label class="file-label" for="file">
+Choose Image
+</label>
+
+<input
+id="file"
+type="file"
+accept="image/jpeg,image/png,image/webp">
+
+<p class="note">
+🔒 आपकी image browser के अंदर process होती है।
+इस tool में image upload backend या login system
+शामिल नहीं है।
+</p>
+
+</div>
+
+</div>
+
+<div
+class="card editor-box"
+id="editorBox">
+
+<div class="title">
+4. Crop & Adjust
+</div>
+
+<div
+class="editor"
+id="editor">
+
 <canvas id="canvas"></canvas>
-<div id="cropFrame" class="crop-frame crop-photo"></div>
+
+<div
+id="cropFrame"
+class="crop-frame crop-photo">
+</div>
+
 </div>
 
 <div class="controls">
+
 <div class="control">
-<label>🔍 Zoom</label>
-<input id="zoom" type="range" min="1" max="4" step="0.01" value="1">
+
+<label>
+🔍 Zoom
+</label>
+
+<input
+id="zoom"
+type="range"
+min="1"
+max="4"
+step="0.01"
+value="1">
+
 </div>
+
 <div class="control">
-<label>🔄 Rotation</label>
-<input id="rotation" type="range" min="-180" max="180" value="0">
+
+<label>
+🔄 Rotation
+</label>
+
+<input
+id="rotation"
+type="range"
+min="-180"
+max="180"
+value="0">
+
 </div>
+
 </div>
 
 <div class="buttons">
-<button class="btn gray" id="reset">↺ Reset</button>
-<button class="btn primary" id="process">⚙️ Resize & Compress</button>
-</div>
+
+<button class="btn gray" id="reset">
+↺ Reset
+</button>
+
+<button class="btn primary" id="process">
+⚙️ Resize & Compress
+</button>
+
 </div>
 
-<!-- RESULT -->
-<div class="card result" id="result">
-<div class="title">5. Final Result</div>
+</div>
+
+<div
+class="card result"
+id="result">
+
+<div class="title">
+5. Final Result
+</div>
+
 <div class="preview-grid">
+
 <div class="preview">
-<strong>Original</strong><br><br>
+
+<strong>
+Original
+</strong>
+
+<br><br>
+
 <img id="original" alt="Original uploaded image">
+
 </div>
+
 <div class="preview">
-<strong>Processed</strong><br><br>
-<img id="final" alt="Resized and compressed image">
+
+<strong>
+Processed
+</strong>
+
+<br><br>
+
+<img id="final" alt="Processed resized image">
+
 </div>
+
 </div>
 
 <div id="status" class="status"></div>
 
 <div class="buttons">
-<button class="btn green" id="download">⬇️ Download Image</button>
-<button class="btn gray" id="again">🔄 New Image</button>
-</div>
+
+<button class="btn green" id="download">
+⬇️ Download Image
+</button>
+
+<button class="btn gray" id="again">
+🔄 New Image
+</button>
+
 </div>
 
-<!-- FAQ -->
+</div>
+
 <div class="card faq">
-<div class="title">Frequently Asked Questions</div>
-<details>
-<summary>क्या मेरी photo या signature server पर upload होती है?</summary>
-<p class="note">इस version में image processing browser के अंदर होती है। कोई image-upload backend या login system शामिल नहीं है।</p>
-</details>
-<details>
-<summary>क्या यह 20–50 KB exact बना सकता है?</summary>
-<p class="note">Tool selected KB range में file बनाने की कोशिश करता है। कुछ images में requested range और dimensions के कारण exact range प्राप्त करना संभव नहीं हो सकता।</p>
-</details>
-<details>
-<summary>क्या यह सभी government exams के लिए valid है?</summary>
-<p class="note">यह एक general image resizing utility है। किसी particular exam की official requirement की guarantee नहीं देता। Application submit करने से पहले संबंधित official notification जरूर देखें।</p>
-</details>
-<details>
-<summary>क्या यह mobile में काम करता है?</summary>
-<p class="note">हाँ। यह responsive design के साथ Android mobile, tablet और computer पर इस्तेमाल किया जा सकता है।</p>
-</details>
+
+<div class="title">
+Frequently Asked Questions
 </div>
 
-<!-- EXAM TABLE -->
+<details>
+
+<summary>
+क्या मेरी photo या signature server पर upload होती है?
+</summary>
+
+<p class="note">
+यह version image processing के लिए browser APIs
+का उपयोग करता है। कोई image-upload backend या
+login system इस tool में शामिल नहीं है।
+</p>
+
+</details>
+
+<details>
+
+<summary>
+क्या यह 20–50 KB exact बना सकता है?
+</summary>
+
+<p class="note">
+Tool selected KB range में file बनाने की कोशिश
+करता है। कुछ images में requested range और
+dimensions के कारण exact range प्राप्त करना
+संभव नहीं हो सकता।
+</p>
+
+</details>
+
+<details>
+
+<summary>
+क्या यह सभी government exams के लिए valid है?
+</summary>
+
+<p class="note">
+यह एक general image resizing utility है। किसी
+particular exam की official requirement की
+guarantee नहीं देता।
+
+Application submit करने से पहले संबंधित
+official notification जरूर देखें।
+</p>
+
+</details>
+
+<details>
+
+<summary>
+क्या यह mobile में काम करता है?
+</summary>
+
+<p class="note">
+हाँ। यह responsive design के साथ बनाया गया है और
+Android mobile, tablet तथा computer screens पर
+इस्तेमाल किया जा सकता है।
+</p>
+
+</details>
+
+</div>
+
 <div class="card">
-<div class="title">📋 Popular Exam Photo & Signature Size Guidelines</div>
-<p class="note">नीचे दिए गए values सामान्य quick presets/reference के रूप में हैं। किसी भी application में final requirement संबंधित official notification से verify करें।</p>
+
+<div class="title">
+📋 Popular Exam Photo & Signature Size Guidelines
+</div>
+
+<p class="note">
+नीचे दिए गए values केवल सामान्य presets/reference
+के रूप में हैं। किसी भी application में final
+requirement संबंधित official notification से verify करें।
+</p>
+
 <div class="exam-table-wrap">
+
 <table class="exam-table">
+
 <thead>
+
 <tr>
 <th>Exam / Recruitment</th>
 <th>Photo Size</th>
 <th>Signature Size</th>
 </tr>
+
 </thead>
+
 <tbody>
-<tr><td><b>SSC Exams</b><br>CGL / CHSL / GD आदि</td><td>20–50 KB*</td><td>10–20 KB*</td></tr>
-<tr><td><b>IBPS / Banking</b></td><td>20–50 KB*</td><td>10–20 KB*</td></tr>
-<tr><td><b>CGPSC / CG Vyapam</b></td><td>20–50 KB*</td><td>10–20 KB*</td></tr>
-<tr><td><b>UPSC Online</b></td><td>20–300 KB*</td><td>20–300 KB*</td></tr>
+
+<tr>
+<td>
+<b>SSC Exams</b><br>
+CGL / CHSL / GD आदि
+</td>
+<td>20–50 KB*</td>
+<td>10–20 KB*</td>
+</tr>
+
+<tr>
+<td>
+<b>IBPS / Banking</b>
+</td>
+<td>20–50 KB*</td>
+<td>10–20 KB*</td>
+</tr>
+
+<tr>
+<td>
+<b>CGPSC / CG Vyapam</b>
+</td>
+<td>20–50 KB*</td>
+<td>10–20 KB*</td>
+</tr>
+
+<tr>
+<td>
+<b>UPSC Online</b>
+</td>
+<td>20–300 KB*</td>
+<td>20–300 KB*</td>
+</tr>
+
 </tbody>
+
 </table>
-</div>
-<p class="note">*ये values इस tool में सामान्य quick presets के रूप में दी गई हैं, official universal requirements नहीं हैं। भर्ती/वर्ष के अनुसार requirements बदल सकती हैं। आवेदन करने से पहले official notification देखें।</p>
+
 </div>
 
-<!-- SEO CONTENT -->
-<div class="card">
-<h2>Online Government Exam Photo Resizer</h2>
-<p class="note">यह free online Sarkari Exam Photo Resizer आपको photo और signature को crop, resize और compress करने में मदद करता है। SSC Photo Resizer, Railway Photo Resizer, IBPS Photo Resizer, UPSC Photo Resizer, CGPSC Photo Resizer और Signature Resizer जैसे सामान्य कामों के लिए इस tool का उपयोग किया जा सकता है।</p>
-<p class="note">Image upload करने के बाद photo को crop करें, zoom और rotation adjust करें, required dimensions चुनें और Resize & Compress पर click करें। इसके बाद final image का file size check करके download किया जा सकता है।</p>
-<div class="seo-links">
-<span class="seo-tag">SSC Photo Resizer</span>
-<span class="seo-tag">Railway Photo Resizer</span>
-<span class="seo-tag">IBPS Photo Resizer</span>
-<span class="seo-tag">UPSC Photo Resizer</span>
-<span class="seo-tag">CGPSC Photo Resizer</span>
-<span class="seo-tag">Signature Resizer</span>
-</div>
-</div>
-
-<!-- SEO INFORMATION -->
-<div class="card">
-<h2>Sarkari Exam Image Resizer कैसे इस्तेमाल करें?</h2>
 <p class="note">
-<b>Step 1:</b> Photo या Signature mode चुनें.<br>
-<b>Step 2:</b> Required file-size range चुनें.<br>
-<b>Step 3:</b> अपनी image upload करें.<br>
-<b>Step 4:</b> Crop frame के अनुसार image adjust करें.<br>
-<b>Step 5:</b> Zoom और rotation आवश्यकतानुसार बदलें.<br>
-<b>Step 6:</b> Resize & Compress पर click करें.<br>
-<b>Step 7:</b> Final KB और dimensions check करें.<br>
-<b>Step 8:</b> Download Image पर click करें.
+*ये values इस tool में सामान्य quick presets के
+रूप में दी गई हैं, official universal requirements
+नहीं हैं। भर्ती/वर्ष के अनुसार requirements बदल सकती हैं।
+आवेदन करने से पहले official notification देखें।
 </p>
+
 </div>
 
-<!-- FOOTER -->
+<!-- SEO GUIDE -->
+
+<div class="card seo-content">
+
+<h2>
+Sarkari Photo Resizer Online
+</h2>
+
+<p>
+<strong>Sarkari Image Studio</strong> एक free online
+<strong>Sarkari Photo Resizer</strong> और
+<strong>Signature Resizer Online</strong> tool है।
+यह government exam forms के लिए photo और signature
+को crop, resize और compress करने में मदद करता है।
+</p>
+
+<h3>
+SSC Photo Resizer 20–50 KB
+</h3>
+
+<p>
+अगर किसी SSC recruitment में निर्धारित photo size
+और file size की requirement दी गई है, तो आप इस tool
+से image को required dimensions और selected KB range
+के अनुसार तैयार करने की कोशिश कर सकते हैं।
+<strong>SSC Photo Resizer 20–50 KB</strong> जैसे
+कामों के लिए यह एक convenient browser-based utility है।
+Final upload से पहले SSC की official notification
+में दी गई requirements जरूर check करें।
+</p>
+
+<h3>
+Signature Resizer Online
+</h3>
+
+<p>
+<strong>Signature Resizer Online</strong> की मदद से
+signature image को crop करके required width और
+height में resize किया जा सकता है। File size कम
+करने के लिए compression option भी उपलब्ध है।
+</p>
+
+<h3>
+Compress Photo for Govt Exam
+</h3>
+
+<p>
+अगर आपकी photo government application के लिए बहुत
+बड़ी है, तो आप <strong>Compress photo for Govt exam</strong>
+के लिए इस tool का उपयोग कर सकते हैं। Photo upload
+करें, crop area adjust करें, dimensions चुनें और
+<strong>Resize & Compress</strong> पर क्लिक करें।
+इसके बाद processed image download की जा सकती है।
+</p>
+
+<h3>
+Railway, IBPS, UPSC, CGPSC और CG Vyapam
+</h3>
+
+<p>
+यह utility Railway, IBPS, UPSC, CGPSC, CG Vyapam और
+अन्य online examination forms के लिए सामान्य image
+resizing और compression tasks में उपयोगी हो सकती है।
+हर recruitment की requirements अलग हो सकती हैं,
+इसलिए official notification को अंतिम source मानें।
+</p>
+
+</div>
+
 <footer class="footer">
-© <span id="year"></span> Sarkari Image Studio<br>
-Free Online Image Utility<br>
-Independent utility • Not affiliated with SSC, UPSC, Railway, IBPS or any government organization.
+
+© <span id="year"></span>
+Sarkari Image Studio
+
+<br>
+
+Independent utility • Not affiliated with SSC,
+UPSC, Railway, IBPS or any government organization.
+
 </footer>
 
 </div>
 
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"क्या मेरी photo या signature server पर upload होती है?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"यह version image processing के लिए browser APIs का उपयोग करता है। कोई image-upload backend या login system इस tool में शामिल नहीं है।"
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"क्या यह 20–50 KB exact बना सकता है?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Tool selected KB range में file बनाने की कोशिश करता है। कुछ images में requested range और dimensions के कारण exact range प्राप्त करना संभव नहीं हो सकता।"
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"क्या यह सभी government exams के लिए valid है?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"यह एक general image resizing utility है। किसी particular exam की official requirement की guarantee नहीं देता। Application submit करने से पहले संबंधित official notification जरूर देखें।"
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"क्या यह mobile में काम करता है?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"हाँ। यह responsive design के साथ बनाया गया है और Android mobile, tablet तथा computer screens पर इस्तेमाल किया जा सकता है।"
+      }
+    }
+  ]
+}
+</script>
+
 <script>
+
+/* =========================
+   BASIC VARIABLES
+========================= */
+
 const $ = id => document.getElementById(id);
+
 const fileInput = $("file");
 const canvas = $("canvas");
 const ctx = canvas.getContext("2d");
@@ -403,244 +1112,745 @@ let startOffsetX = 0;
 let startOffsetY = 0;
 let finalBlob = null;
 
+/* =========================
+   MODE
+========================= */
+
 $("photoMode").onclick = function(){
+
     mode = "photo";
+
     $("photoMode").classList.add("active");
     $("signatureMode").classList.remove("active");
+
     $("width").value = 350;
     $("height").value = 450;
     $("preset").value = "20,50";
+
     $("customBox").classList.add("hidden");
-    cropFrame.className = "crop-frame crop-photo";
+
+    cropFrame.className =
+    "crop-frame crop-photo";
+
     draw();
 };
 
 $("signatureMode").onclick = function(){
+
     mode = "signature";
+
     $("signatureMode").classList.add("active");
     $("photoMode").classList.remove("active");
+
     $("width").value = 300;
     $("height").value = 120;
     $("preset").value = "10,20";
+
     $("customBox").classList.add("hidden");
-    cropFrame.className = "crop-frame crop-signature";
+
+    cropFrame.className =
+    "crop-frame crop-signature";
+
     draw();
 };
 
+/* =========================
+   CUSTOM PRESET
+========================= */
+
 $("preset").onchange = function(){
-    $("customBox").classList.toggle("hidden", this.value !== "custom");
+
+    $("customBox").classList.toggle(
+        "hidden",
+        this.value !== "custom"
+    );
 };
 
+/* =========================
+   IMAGE UPLOAD
+========================= */
+
 fileInput.onchange = function(){
+
     const file = this.files[0];
-    if(!file) return;
-    if(file.size > 10 * 1024 * 1024){
-        alert("Maximum file size is 10 MB.");
-        fileInput.value = "";
+
+    if(!file){
         return;
     }
+
+    if(file.size > 10 * 1024 * 1024){
+
+        alert("Maximum file size is 10 MB.");
+
+        fileInput.value = "";
+
+        return;
+    }
+
     const url = URL.createObjectURL(file);
+
     image.onload = function(){
+
         imageLoaded = true;
-        zoom = 1; rotation = 0; offsetX = 0; offsetY = 0;
-        $("zoom").value = 1; $("rotation").value = 0;
+
+        zoom = 1;
+        rotation = 0;
+        offsetX = 0;
+        offsetY = 0;
+
+        $("zoom").value = 1;
+        $("rotation").value = 0;
+
         $("original").src = url;
+
         editorBox.style.display = "block";
         $("result").style.display = "none";
-        finalBlob = null;
+
         draw();
-        editorBox.scrollIntoView({behavior:"smooth"});
+
+        editorBox.scrollIntoView({
+            behavior:"smooth"
+        });
     };
+
     image.src = url;
 };
 
+/* =========================
+   CANVAS SIZE
+========================= */
+
 function resizeCanvas(){
+
     const rect = editor.getBoundingClientRect();
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+    const dpr = Math.min(
+        window.devicePixelRatio || 1,
+        2
+    );
+
     canvas.width = rect.width * dpr;
     canvas.height = rect.height * dpr;
+
     canvas.style.width = rect.width + "px";
     canvas.style.height = rect.height + "px";
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    return {width:rect.width, height:rect.height};
+
+    ctx.setTransform(
+        dpr,
+        0,
+        0,
+        dpr,
+        0,
+        0
+    );
+
+    return {
+        width:rect.width,
+        height:rect.height
+    };
 }
 
+/* =========================
+   DRAW
+========================= */
+
 function draw(){
-    if(!imageLoaded) return;
+
+    if(!imageLoaded){
+        return;
+    }
+
     const size = resizeCanvas();
+
     const w = size.width;
     const h = size.height;
-    ctx.clearRect(0, 0, w, h);
+
+    ctx.clearRect(0,0,w,h);
+
     ctx.fillStyle = "#111827";
-    ctx.fillRect(0, 0, w, h);
+
+    ctx.fillRect(0,0,w,h);
+
     ctx.save();
-    ctx.translate(w / 2 + offsetX, h / 2 + offsetY);
-    ctx.rotate(rotation * Math.PI / 180);
-    const scale = Math.max(w / image.width, h / image.height) * zoom;
+
+    ctx.translate(
+        w / 2 + offsetX,
+        h / 2 + offsetY
+    );
+
+    ctx.rotate(
+        rotation * Math.PI / 180
+    );
+
+    const scale =
+    Math.max(
+        w / image.width,
+        h / image.height
+    ) * zoom;
+
     const iw = image.width * scale;
     const ih = image.height * scale;
+
     ctx.imageSmoothingEnabled = true;
     ctx.imageSmoothingQuality = "high";
-    ctx.drawImage(image, -iw / 2, -ih / 2, iw, ih);
+
+    ctx.drawImage(
+        image,
+        -iw / 2,
+        -ih / 2,
+        iw,
+        ih
+    );
+
     ctx.restore();
 }
 
-$("zoom").oninput = function(){ zoom = Number(this.value); draw(); };
-$("rotation").oninput = function(){ rotation = Number(this.value); draw(); };
+/* =========================
+   ZOOM
+========================= */
 
-editor.addEventListener("pointerdown", function(e){
-    dragging = true;
-    editor.setPointerCapture(e.pointerId);
-    startX = e.clientX; startY = e.clientY;
-    startOffsetX = offsetX; startOffsetY = offsetY;
-});
+$("zoom").oninput = function(){
 
-editor.addEventListener("pointermove", function(e){
-    if(!dragging) return;
-    offsetX = startOffsetX + e.clientX - startX;
-    offsetY = startOffsetY + e.clientY - startY;
-    draw();
-});
+    zoom = Number(this.value);
 
-editor.addEventListener("pointerup", function(){ dragging = false; });
-editor.addEventListener("pointercancel", function(){ dragging = false; });
-
-$("reset").onclick = function(){
-    zoom = 1; rotation = 0; offsetX = 0; offsetY = 0;
-    $("zoom").value = 1; $("rotation").value = 0;
     draw();
 };
 
+/* =========================
+   ROTATION
+========================= */
+
+$("rotation").oninput = function(){
+
+    rotation = Number(this.value);
+
+    draw();
+};
+
+/* =========================
+   DRAG / TOUCH
+========================= */
+
+editor.addEventListener(
+"pointerdown",
+function(e){
+
+    dragging = true;
+
+    editor.setPointerCapture(e.pointerId);
+
+    startX = e.clientX;
+    startY = e.clientY;
+
+    startOffsetX = offsetX;
+    startOffsetY = offsetY;
+});
+
+editor.addEventListener(
+"pointermove",
+function(e){
+
+    if(!dragging){
+        return;
+    }
+
+    offsetX =
+    startOffsetX +
+    e.clientX -
+    startX;
+
+    offsetY =
+    startOffsetY +
+    e.clientY -
+    startY;
+
+    draw();
+});
+
+editor.addEventListener(
+"pointerup",
+function(){
+    dragging = false;
+});
+
+editor.addEventListener(
+"pointercancel",
+function(){
+    dragging = false;
+});
+
+/* =========================
+   RESET
+========================= */
+
+$("reset").onclick = function(){
+
+    zoom = 1;
+    rotation = 0;
+    offsetX = 0;
+    offsetY = 0;
+
+    $("zoom").value = 1;
+    $("rotation").value = 0;
+
+    draw();
+};
+
+/* =========================
+   RANGE
+========================= */
+
 function getRange(){
+
     if($("preset").value === "custom"){
+
         const min = Number($("minKB").value);
         const max = Number($("maxKB").value);
-        if(min <= 0 || max <= min) throw new Error("Please enter valid KB range.");
-        return [min, max];
+
+        if(
+            min <= 0 ||
+            max <= min
+        ){
+
+            throw new Error(
+                "Please enter valid KB range."
+            );
+        }
+
+        return [min,max];
     }
-    return $("preset").value.split(",").map(Number);
+
+    return $("preset")
+    .value
+    .split(",")
+    .map(Number);
 }
 
-function createOutput(){
-    const rect = editor.getBoundingClientRect();
-    const frameRect = cropFrame.getBoundingClientRect();
-    const frameX = frameRect.left - rect.left;
-    const frameY = frameRect.top - rect.top;
-    const frameW = frameRect.width;
-    const frameH = frameRect.height;
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+/* =========================
+   CREATE OUTPUT
+========================= */
 
-    const source = document.createElement("canvas");
+function createOutput(){
+
+    const rect =
+    editor.getBoundingClientRect();
+
+    const frameRect =
+    cropFrame.getBoundingClientRect();
+
+    const frameX =
+    frameRect.left - rect.left;
+
+    const frameY =
+    frameRect.top - rect.top;
+
+    const frameW =
+    frameRect.width;
+
+    const frameH =
+    frameRect.height;
+
+    const dpr =
+    Math.min(
+        window.devicePixelRatio || 1,
+        2
+    );
+
+    const source =
+    document.createElement("canvas");
+
     source.width = canvas.width;
     source.height = canvas.height;
-    const sourceCtx = source.getContext("2d");
-    sourceCtx.drawImage(canvas, 0, 0);
 
-    const output = document.createElement("canvas");
-    const width = Number($("width").value);
-    const height = Number($("height").value);
-    if(width < 50 || height < 50) throw new Error("Please enter valid dimensions.");
+    const sourceCtx =
+    source.getContext("2d");
+
+    sourceCtx.drawImage(
+        canvas,
+        0,
+        0
+    );
+
+    const output =
+    document.createElement("canvas");
+
+    const width =
+    Number($("width").value);
+
+    const height =
+    Number($("height").value);
+
+    if(
+        width < 50 ||
+        height < 50
+    ){
+
+        throw new Error(
+            "Please enter valid dimensions."
+        );
+    }
 
     output.width = width;
     output.height = height;
-    const outputCtx = output.getContext("2d");
+
+    const outputCtx =
+    output.getContext("2d");
+
     outputCtx.fillStyle = "#ffffff";
-    outputCtx.fillRect(0, 0, width, height);
+
+    outputCtx.fillRect(
+        0,
+        0,
+        width,
+        height
+    );
+
     outputCtx.imageSmoothingEnabled = true;
     outputCtx.imageSmoothingQuality = "high";
-    outputCtx.drawImage(source, frameX * dpr, frameY * dpr, frameW * dpr, frameH * dpr, 0, 0, width, height);
+
+    outputCtx.drawImage(
+
+        source,
+
+        frameX * dpr,
+        frameY * dpr,
+        frameW * dpr,
+        frameH * dpr,
+
+        0,
+        0,
+        width,
+        height
+    );
+
     return output;
 }
 
-function toBlob(canvas, quality, type){
-    return new Promise(resolve => canvas.toBlob(resolve, type, quality));
+/* =========================
+   BLOB
+========================= */
+
+function toBlob(
+    canvas,
+    quality,
+    type
+){
+
+    return new Promise(
+    resolve => {
+
+        canvas.toBlob(
+            resolve,
+            type,
+            quality
+        );
+
+    });
 }
 
-async function compress(canvas, minKB, maxKB, type){
+/* =========================
+   SMART COMPRESSION
+========================= */
+
+async function compress(
+    canvas,
+    minKB,
+    maxKB,
+    type
+){
+
     const minBytes = minKB * 1024;
     const maxBytes = maxKB * 1024;
-    let low = 0.05, high = 0.98, best = null, bestDifference = Infinity;
 
-    for(let i = 0; i < 14; i++){
-        const quality = (low + high) / 2;
-        const blob = await toBlob(canvas, quality, type);
-        if(!blob) throw new Error("Browser image compression failed.");
+    let low = 0.05;
+    let high = 0.98;
+
+    let best = null;
+    let bestDifference = Infinity;
+
+    for(
+        let i = 0;
+        i < 14;
+        i++
+    ){
+
+        const quality =
+        (low + high) / 2;
+
+        const blob =
+        await toBlob(
+            canvas,
+            quality,
+            type
+        );
+
+        if(!blob){
+
+            throw new Error(
+                "Browser image compression failed."
+            );
+        }
 
         const size = blob.size;
-        let difference = 0;
-        if(size < minBytes) difference = minBytes - size;
-        else if(size > maxBytes) difference = size - maxBytes;
 
-        if(difference < bestDifference){
+        let difference = 0;
+
+        if(size < minBytes){
+
+            difference =
+            minBytes - size;
+
+        }
+        else if(size > maxBytes){
+
+            difference =
+            size - maxBytes;
+        }
+
+        if(
+            difference <
+            bestDifference
+        ){
+
             best = blob;
             bestDifference = difference;
         }
 
-        if(size > maxBytes) high = quality;
-        else if(size < minBytes) low = quality;
-        else return blob;
+        if(size > maxBytes){
+
+            high = quality;
+
+        }
+        else if(size < minBytes){
+
+            low = quality;
+
+        }
+        else{
+
+            return blob;
+        }
     }
+
     return best;
 }
 
-$("process").onclick = async function(){
-    if(!imageLoaded){ alert("Please upload an image first."); return; }
+/* =========================
+   PROCESS
+========================= */
+
+$("process").onclick =
+async function(){
+
+    if(!imageLoaded){
+
+        alert(
+            "Please upload an image first."
+        );
+
+        return;
+    }
+
     try{
+
         $("process").disabled = true;
-        $("process").textContent = "⏳ Processing...";
+        $("process").textContent =
+        "⏳ Processing...";
+
         const range = getRange();
+
         const output = createOutput();
-        const type = $("format").value === "webp" ? "image/webp" : "image/jpeg";
-        const blob = await compress(output, range[0], range[1], type);
+
+        const type =
+        $("format").value === "webp"
+        ?
+        "image/webp"
+        :
+        "image/jpeg";
+
+        const blob =
+        await compress(
+            output,
+            range[0],
+            range[1],
+            type
+        );
 
         finalBlob = blob;
-        const finalKB = blob.size / 1024;
-        $("final").src = URL.createObjectURL(blob);
-        const matched = finalKB >= range[0] && finalKB <= range[1];
-        const status = $("status");
-        status.className = "status " + (matched ? "success" : "warning");
-        status.innerHTML = (matched ? "✅ Target range matched!" : "⚠️ Target range पूरी तरह match नहीं हुई।") +
-        "<br>File Size: <b>" + finalKB.toFixed(2) + " KB</b>" +
-        "<br>Dimensions: <b>" + output.width + " × " + output.height + " px</b>" +
-        "<br>Target: <b>" + range[0] + "–" + range[1] + " KB</b>";
+
+        const finalKB =
+        blob.size / 1024;
+
+        $("final").src =
+        URL.createObjectURL(blob);
+
+        const matched =
+        finalKB >= range[0] &&
+        finalKB <= range[1];
+
+        const status =
+        $("status");
+
+        status.className =
+        "status " +
+        (
+            matched
+            ?
+            "success"
+            :
+            "warning"
+        );
+
+        status.innerHTML =
+
+        (
+            matched
+            ?
+            "✅ Target range matched!"
+            :
+            "⚠️ Target range पूरी तरह match नहीं हुई।"
+        )
+
+        +
+
+        "<br>File Size: <b>" +
+        finalKB.toFixed(2) +
+        " KB</b>"
+
+        +
+
+        "<br>Dimensions: <b>" +
+        output.width +
+        " × " +
+        output.height +
+        " px</b>"
+
+        +
+
+        "<br>Target: <b>" +
+        range[0] +
+        "–" +
+        range[1] +
+        " KB</b>";
 
         $("result").style.display = "block";
-        $("result").scrollIntoView({behavior:"smooth"});
-    }catch(error){
-        alert(error.message);
+
+        $("result").scrollIntoView({
+            behavior:"smooth"
+        });
+
     }
+    catch(error){
+
+        alert(error.message);
+
+    }
+
     $("process").disabled = false;
-    $("process").textContent = "⚙️ Resize & Compress";
+
+    $("process").textContent =
+    "⚙️ Resize & Compress";
 };
+
+/* =========================
+   DOWNLOAD
+========================= */
 
 $("download").onclick = function(){
-    if(!finalBlob){ alert("Please process the image first."); return; }
-    const extension = $("format").value === "webp" ? "webp" : "jpg";
-    const name = mode === "photo" ? "sarkari-exam-photo" : "sarkari-exam-signature";
-    const url = URL.createObjectURL(finalBlob);
-    const link = document.createElement("a");
+
+    if(!finalBlob){
+
+        alert(
+            "Please process the image first."
+        );
+
+        return;
+    }
+
+    const extension =
+    $("format").value === "webp"
+    ?
+    "webp"
+    :
+    "jpg";
+
+    const name =
+    mode === "photo"
+    ?
+    "sarkari-exam-photo"
+    :
+    "sarkari-exam-signature";
+
+    const url =
+    URL.createObjectURL(finalBlob);
+
+    const link =
+    document.createElement("a");
+
     link.href = url;
-    link.download = name + "." + extension;
+
+    link.download =
+    name + "." + extension;
+
     document.body.appendChild(link);
+
     link.click();
+
     link.remove();
-    setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+
+    setTimeout(
+    function(){
+
+        URL.revokeObjectURL(url);
+
+    },
+    1000
+    );
 };
+
+/* =========================
+   NEW IMAGE
+========================= */
 
 $("again").onclick = function(){
+
     fileInput.value = "";
+
     imageLoaded = false;
+
     finalBlob = null;
+
     editorBox.style.display = "none";
+
     $("result").style.display = "none";
-    window.scrollTo({top:0, behavior:"smooth"});
+
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
 };
 
-$("year").textContent = new Date().getFullYear();
+/* =========================
+   YEAR
+========================= */
 
-window.addEventListener("resize", function(){
-    if(imageLoaded) draw();
+$("year").textContent =
+new Date().getFullYear();
+
+/* =========================
+   WINDOW RESIZE
+========================= */
+
+window.addEventListener(
+"resize",
+function(){
+
+    if(imageLoaded){
+        draw();
+    }
+
 });
+
 </script>
 
 </body>
